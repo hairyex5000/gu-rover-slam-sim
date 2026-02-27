@@ -272,14 +272,14 @@
 
 <joint name="Revolute 7" type="continuous">
   <origin xyz="-0.178284 0.0 -0.07506" rpy="0 0 0"/>
-  <parent link="right_little_pivot_1"/>
+  <parent link="left_little_pivot_1"/>
   <child link="wheel_2"/>
   <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 8" type="continuous">
   <origin xyz="0.177308 0.0 -0.077336" rpy="0 0 0"/>
-  <parent link="right_little_pivot_1"/>
+  <parent link="left_little_pivot_1"/>
   <child link="wheel_3"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
@@ -293,14 +293,14 @@
 
 <joint name="Revolute 10" type="continuous">
   <origin xyz="-0.178284 0.0 -0.07506" rpy="0 0 0"/>
-  <parent link="left_little_pivot_1"/>
+  <parent link="right_little_pivot_1"/>
   <child link="wheel_5"/>
   <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 11" type="continuous">
   <origin xyz="0.177308 0.0 -0.077336" rpy="0 0 0"/>
-  <parent link="left_little_pivot_1"/>
+  <parent link="right_little_pivot_1"/>
   <child link="wheel_6"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>

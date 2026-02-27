@@ -6,9 +6,9 @@
 <xacro:include filename="$(find robot_description)/urdf/robot.gazebo" />
 <link name="base_link">
   <inertial>
-    <origin xyz="-0.3497034480857745 0.09428441033844955 0.4961224133505976" rpy="0 0 0"/>
+    <origin xyz="0.03180031010101345 4.6312625487061606e-05 0.10698441033921668" rpy="0 0 0"/>
     <mass value="17.719416949374274"/>
-    <inertia ixx="0.704305" iyy="1.471877" izz="1.004356" ixy="-0.000419" iyz="-0.000142" ixz="-0.000745"/>
+    <inertia ixx="0.704305" iyy="1.004356" izz="1.471877" ixy="0.000745" iyz="0.000142" ixz="-0.000419"/>
   </inertial>
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -27,19 +27,19 @@
 
 <link name="right_big_pivot_1">
   <inertial>
-    <origin xyz="-0.05850375195341356 -0.07469415008418884 0.10854805486368158" rpy="0 0 0"/>
+    <origin xyz="-0.058503993766625226 -0.108547328887598 -0.07469415008342761" rpy="0 0 0"/>
     <mass value="2.2415377387384887"/>
-    <inertia ixx="0.033507" iyy="0.086535" izz="0.078447" ixy="-0.014743" iyz="-1e-06" ixz="2e-05"/>
+    <inertia ixx="0.033507" iyy="0.078447" izz="0.086535" ixy="-2e-05" iyz="1e-06" ixz="-0.014743"/>
   </inertial>
   <visual>
-    <origin xyz="0.34925 -0.14605 -0.734527" rpy="0 0 0"/>
+    <origin xyz="-0.032254 0.238359 -0.15875" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/right_big_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.34925 -0.14605 -0.734527" rpy="0 0 0"/>
+    <origin xyz="-0.032254 0.238359 -0.15875" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/right_big_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -48,19 +48,19 @@
 
 <link name="left_big_pivot_1">
   <inertial>
-    <origin xyz="-0.05850375195478724 -0.07469415008419117 -0.1086219451363166" rpy="0 0 0"/>
+    <origin xyz="-0.05850399376799863 0.10862267111240007 -0.07469415008342495" rpy="0 0 0"/>
     <mass value="2.2415377387384736"/>
-    <inertia ixx="0.033507" iyy="0.086535" izz="0.078447" ixy="-0.014743" iyz="-1e-06" ixz="2e-05"/>
+    <inertia ixx="0.033507" iyy="0.078447" izz="0.086535" ixy="-2e-05" iyz="1e-06" ixz="-0.014743"/>
   </inertial>
   <visual>
-    <origin xyz="0.34925 -0.14605 -0.257568" rpy="0 0 0"/>
+    <origin xyz="-0.032254 -0.2386 -0.15875" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/left_big_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.34925 -0.14605 -0.257568" rpy="0 0 0"/>
+    <origin xyz="-0.032254 -0.2386 -0.15875" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/left_big_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -69,19 +69,19 @@
 
 <link name="right_little_pivot_1">
   <inertial>
-    <origin xyz="-0.00022059559125406358 -0.03446395454671583 0.10783319760475599" rpy="0 0 0"/>
+    <origin xyz="-0.00022083740446540712 -0.10783247162867271 -0.034463954545946425" rpy="0 0 0"/>
     <mass value="1.158287566383538"/>
-    <inertia ixx="0.010707" iyy="0.023908" izz="0.01462" ixy="8.5e-05" iyz="0.000121" ixz="1e-06"/>
+    <inertia ixx="0.010707" iyy="0.01462" izz="0.023908" ixy="-1e-06" iyz="-0.000121" ixz="8.5e-05"/>
   </inertial>
   <visual>
-    <origin xyz="0.174498 0.0127 -0.043573" rpy="0 0 0"/>
+    <origin xyz="-0.207006 -0.452595 -0.0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/right_little_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.174498 0.0127 -0.043573" rpy="0 0 0"/>
+    <origin xyz="-0.207006 -0.452595 -0.0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/right_little_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -90,19 +90,19 @@
 
 <link name="left_little_pivot_1">
   <inertial>
-    <origin xyz="-0.00022059558986731176 -0.03446395454671311 -0.10298680239524349" rpy="0 0 0"/>
+    <origin xyz="-0.00022083740307884958 0.10298752837132691 -0.03446395454594424" rpy="0 0 0"/>
     <mass value="1.158287566383538"/>
-    <inertia ixx="0.010707" iyy="0.023908" izz="0.01462" ixy="8.5e-05" iyz="0.000121" ixz="1e-06"/>
+    <inertia ixx="0.010707" iyy="0.01462" izz="0.023908" ixy="-1e-06" iyz="-0.000121" ixz="8.5e-05"/>
   </inertial>
   <visual>
-    <origin xyz="0.174498 0.0127 -0.948649" rpy="0 0 0"/>
+    <origin xyz="-0.207006 0.452481 -0.0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/left_little_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.174498 0.0127 -0.948649" rpy="0 0 0"/>
+    <origin xyz="-0.207006 0.452481 -0.0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/left_little_pivot_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -111,19 +111,19 @@
 
 <link name="wheel_1">
   <inertial>
-    <origin xyz="8.376931592835035e-09 -4.49129045065888e-09 -0.08910710362063429" rpy="0 0 0"/>
+    <origin xyz="-2.3343628013927642e-07 -0.08910709857161442 4.492057850691289e-09" rpy="0 0 0"/>
     <mass value="11.601933377005569"/>
-    <inertia ixx="0.066678" iyy="0.066678" izz="0.074767" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+    <inertia ixx="0.066678" iyy="0.074767" izz="0.066678" ixy="0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.698754 0.10795 -0.254393" rpy="0 0 0"/>
+    <origin xyz="0.31725 -0.452595 0.09525" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.698754 0.10795 -0.254393" rpy="0 0 0"/>
+    <origin xyz="0.31725 -0.452595 0.09525" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -132,19 +132,19 @@
 
 <link name="wheel_2">
   <inertial>
-    <origin xyz="-7.764208220795155e-08 -4.0233125182809193e-07 0.08910782454769867" rpy="0 0 0"/>
+    <origin xyz="-0.3815033194552931 -0.20786809857161465 -0.5403554023304835" rpy="0 0 0"/>
     <mass value="11.601933377005569"/>
-    <inertia ixx="0.066678" iyy="0.066678" izz="0.074767" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+    <inertia ixx="0.066678" iyy="0.074767" izz="0.066678" ixy="0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.352782 0.08776 -0.043573" rpy="0 0 0"/>
+    <origin xyz="-0.410225 -0.571356 -0.465295" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.352782 0.08776 -0.043573" rpy="0 0 0"/>
+    <origin xyz="-0.410225 -0.571356 -0.465295" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -153,19 +153,19 @@
 
 <link name="wheel_3">
   <inertial>
-    <origin xyz="-3.618419096582462e-07 -4.6688623511759175e-07 0.089107824547699" rpy="0 0 0"/>
+    <origin xyz="-0.38150360365512026 -0.2101440985716146 -0.5426314668854634" rpy="0 0 0"/>
     <mass value="11.601933377005569"/>
-    <inertia ixx="0.066678" iyy="0.066678" izz="0.074767" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+    <inertia ixx="0.066678" iyy="0.074767" izz="0.066678" ixy="0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.002811 0.090036 -0.043573" rpy="0 0 0"/>
+    <origin xyz="-0.765818 -0.573632 -0.465295" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.002811 0.090036 -0.043573" rpy="0 0 0"/>
+    <origin xyz="-0.765818 -0.573632 -0.465295" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -174,19 +174,19 @@
 
 <link name="wheel_4">
   <inertial>
-    <origin xyz="8.378312821299971e-09 4.491294891550979e-09 0.08910782454769894" rpy="0 0 0"/>
+    <origin xyz="-0.3591342334348953 -0.08218317040328155 0.14672999550947713" rpy="0 0 0"/>
     <mass value="11.601933377005569"/>
-    <inertia ixx="0.066678" iyy="0.066678" izz="0.074767" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+    <inertia ixx="0.066678" iyy="0.074767" izz="0.066678" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.698754 0.10795 -0.737702" rpy="0 0 0"/>
+    <origin xyz="-0.041884 0.281063 0.24198" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.698754 0.10795 -0.737702" rpy="0 0 0"/>
+    <origin xyz="-0.041884 0.281063 0.24198" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -195,19 +195,19 @@
 
 <link name="wheel_5">
   <inertial>
-    <origin xyz="-7.764069687166142e-08 -4.0233124987132385e-07 0.08910782454769917" rpy="0 0 0"/>
+    <origin xyz="-0.3815033194539057 -0.2404731704032818 0.36472058868693397" rpy="0 0 0"/>
     <mass value="11.601933377005569"/>
-    <inertia ixx="0.066678" iyy="0.066678" izz="0.074767" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+    <inertia ixx="0.066678" iyy="0.074767" izz="0.066678" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.352782 0.08776 -0.737829" rpy="0 0 0"/>
+    <origin xyz="-0.410225 0.1229 0.439781" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_5.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.352782 0.08776 -0.737829" rpy="0 0 0"/>
+    <origin xyz="-0.410225 0.1229 0.439781" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_5.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -216,19 +216,19 @@
 
 <link name="wheel_6">
   <inertial>
-    <origin xyz="-3.618405238158505e-07 -4.6688623286939013e-07 0.08910782454769894" rpy="0 0 0"/>
+    <origin xyz="-0.38150360365373415 -0.24274917040328264 0.3624445241319533" rpy="0 0 0"/>
     <mass value="11.601933377005569"/>
-    <inertia ixx="0.066678" iyy="0.066678" izz="0.074767" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+    <inertia ixx="0.066678" iyy="0.074767" izz="0.066678" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.002811 0.090036 -0.737829" rpy="0 0 0"/>
+    <origin xyz="-0.765818 0.120624 0.439781" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_6.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.002811 0.090036 -0.737829" rpy="0 0 0"/>
+    <origin xyz="-0.765818 0.120624 0.439781" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://robot_description/meshes/wheel_6.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -236,73 +236,73 @@
 </link>
 
 <joint name="Revolute 1" type="continuous">
-  <origin xyz="-0.34925 0.14605 0.734527" rpy="0 0 0"/>
+  <origin xyz="0.032254 -0.238359 0.15875" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_big_pivot_1"/>
-  <axis xyz="-0.0 -0.0 1.0"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 3" type="continuous">
-  <origin xyz="-0.34925 0.14605 0.257568" rpy="0 0 0"/>
+  <origin xyz="0.032254 0.2386 0.15875" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_big_pivot_1"/>
-  <axis xyz="0.0 0.0 -1.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Revolute 4" type="continuous">
-  <origin xyz="0.174752 -0.15875 -0.213995" rpy="0 0 0"/>
+  <origin xyz="0.174752 0.213995 -0.15875" rpy="0 0 0"/>
   <parent link="left_big_pivot_1"/>
   <child link="right_little_pivot_1"/>
-  <axis xyz="0.0 -0.0 -1.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Revolute 5" type="continuous">
-  <origin xyz="0.174752 -0.15875 0.214122" rpy="0 0 0"/>
+  <origin xyz="0.174752 -0.214122 -0.15875" rpy="0 0 0"/>
   <parent link="right_big_pivot_1"/>
   <child link="left_little_pivot_1"/>
-  <axis xyz="0.0 -0.0 -1.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Revolute 6" type="continuous">
-  <origin xyz="-0.349504 -0.254 -0.003175" rpy="0 0 0"/>
+  <origin xyz="-0.349504 0.213995 -0.254" rpy="0 0 0"/>
   <parent link="left_big_pivot_1"/>
   <child link="wheel_1"/>
-  <axis xyz="-0.0 -0.0 1.0"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 7" type="continuous">
-  <origin xyz="-0.178284 -0.07506 0.0" rpy="0 0 0"/>
+  <origin xyz="0.203219 0.118761 0.465295" rpy="0 0 0"/>
   <parent link="right_little_pivot_1"/>
   <child link="wheel_2"/>
-  <axis xyz="-0.0 0.0 1.0"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 8" type="continuous">
-  <origin xyz="0.177309 -0.077336 0.0" rpy="0 0 0"/>
+  <origin xyz="0.558812 0.121037 0.465295" rpy="0 0 0"/>
   <parent link="right_little_pivot_1"/>
   <child link="wheel_3"/>
-  <axis xyz="0.0 -0.0 -1.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Revolute 9" type="continuous">
-  <origin xyz="-0.349504 -0.254 0.003175" rpy="0 0 0"/>
+  <origin xyz="0.00963 -0.042704 -0.40073" rpy="0 0 0"/>
   <parent link="right_big_pivot_1"/>
   <child link="wheel_4"/>
-  <axis xyz="-0.0 -0.0 1.0"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 10" type="continuous">
-  <origin xyz="-0.178284 -0.07506 -0.21082" rpy="0 0 0"/>
+  <origin xyz="0.203219 0.329581 -0.439781" rpy="0 0 0"/>
   <parent link="left_little_pivot_1"/>
   <child link="wheel_5"/>
-  <axis xyz="-0.0 0.0 1.0"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 11" type="continuous">
-  <origin xyz="0.177309 -0.077336 -0.21082" rpy="0 0 0"/>
+  <origin xyz="0.558812 0.331857 -0.439781" rpy="0 0 0"/>
   <parent link="left_little_pivot_1"/>
   <child link="wheel_6"/>
-  <axis xyz="0.0 -0.0 -1.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 </robot>
